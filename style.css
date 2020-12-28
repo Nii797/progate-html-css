@@ -1,0 +1,44 @@
+/* Jenis Font untuk seluruh isi Kontent isi website */
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    /* style list tidak ada symbol apapun */
+    list-style: none;
+}
+
+/* element div pada header */
+.header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+    width: auto;
+}
+
+/* element div dalam element div header yaitu header list */
+ .header-list li {
+    float: left;
+    padding : 33px 20px;
+ }
+
+ .header-logo {
+     float: left;
+     font-size: 36px;
+     
+ }
+
+
+/* element div main  */
+ .main {
+     background-color: #bdf7f1;
+     height: 600px;
+ }
+
+/* element div footer  */
+ .footer {
+     background-color: #2f5167;
+     color: #fff;
+     height: 120px;
+     padding: 40px;
+ }
